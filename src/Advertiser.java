@@ -11,7 +11,7 @@ public class Advertiser extends BaseAdvertising {
 
     @Override
     public String describeMe() {
-        return "This class is for an Advertiser";
+        return "Advertiser with id:" + this.id;
     }
 
     public String getName() {
@@ -23,7 +23,7 @@ public class Advertiser extends BaseAdvertising {
     }
 
     public static String help() {
-        return "Fields of this class are name,id,clicks ,and views ";
+        return "Fields of this class are name, id, clicks ,and views ";
     }
 
     public static int getTotalClicks() {

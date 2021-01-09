@@ -49,7 +49,7 @@ public class Ad extends BaseAdvertising {
 
     @Override
     public String describeMe() {
-        return "This class is for Ads";
+        return "Ad with id:" + this.id;
     }
 
     @Override

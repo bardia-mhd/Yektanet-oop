@@ -7,7 +7,6 @@ public class BaseAdvertising {
     public BaseAdvertising() {
         this.id = idCounter;
         idCounter++;
-
         this.views = 0;
         this.clicks = 0;
     }
