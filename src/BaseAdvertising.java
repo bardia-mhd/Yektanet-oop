@@ -1,4 +1,4 @@
-public abstract class BaseAdvertising {
+public class BaseAdvertising {
     private static int idCounter = 1;
     protected int id;
     protected int views;
@@ -6,7 +6,7 @@ public abstract class BaseAdvertising {
 
     public BaseAdvertising() {
         this.id = idCounter;
-        idCounter ++;
+        idCounter++;
 
         this.views = 0;
         this.clicks = 0;
@@ -20,13 +20,15 @@ public abstract class BaseAdvertising {
         return clicks;
     }
 
-    public void incViews(){
-        this.views ++;
+    public void incViews() {
+        this.views++;
     }
 
-    public void incClicks(){
-        this.clicks ++;
+    public void incClicks() {
+        this.clicks++;
     }
 
-    public abstract String describeMe();
+    public String describeMe() {
+        return "This is base advertise class";
+    }
 }
